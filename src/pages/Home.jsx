@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Asociacion from "../components/Asociacion/Asociacion";
 
 const Home = () => {
   return (
-    <div>Home hola</div>
-  )
-}
+    <>
+      <Asociacion />
+    </>
+  );
+};
 
-export default Home
+export default Home;
