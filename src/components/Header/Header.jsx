@@ -6,11 +6,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <img
-          className="logo"
-          src="../../../public/logo-sinletras.png"
-          alt="logo"
-        />
+        <img className="logo" src="./public/logo-sinletras.png" alt="logo" />
         <div className="logo-container">
           <h3>Don Bigote</h3>
           <h5>HIGUERUELA</h5>
