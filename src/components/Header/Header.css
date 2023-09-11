@@ -1,0 +1,28 @@
+header {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--secondary);
+    border-bottom: 2px solid var(--primary);
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 4rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container h5 {
+    color: var(--primary);
+}

@@ -1,0 +1,9 @@
+a {
+    color: black;
+    padding: 8px;
+}
+
+a:hover {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
