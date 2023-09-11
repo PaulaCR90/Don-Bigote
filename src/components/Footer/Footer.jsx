@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="https://www.facebook.com/profile.php?id=61550659575214&locale=es_ES">
           <img
             className="rrss"
-            src="./public/logotipo-circular-de-facebook.png"
+            src="./assets/logotipo-circular-de-facebook.png"
             alt="facebook"
           />
           <p>Asociación Don Bigote</p>
