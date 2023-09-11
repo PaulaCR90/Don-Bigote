@@ -16,7 +16,7 @@
   justify-content: space-evenly;
   gap: 0.6rem;
   color: var(--secondary);
-  border-bottom: 0.5rem solid var(--primary);
+  border-bottom: 1rem solid var(--primary);
 }
 
 .asociacion section button {
@@ -28,10 +28,10 @@
 }
 
 .asociacion section button:hover {
-  transform: scale(1.05);
-  transition: all 0.3s ease;
-  /* background-color: var(--primary);
-  color: var(--secondary); */
+  /* transform: scale(1.05);
+  transition: all 0.3s ease; */
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 .asociacion section h2 {
