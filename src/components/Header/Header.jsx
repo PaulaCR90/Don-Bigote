@@ -11,7 +11,6 @@ const Header = () => {
           <h3>Don Bigote</h3>
           <h5>HIGUERUELA</h5>
         </div>
-
         <NavBar />
         {/* {tabletOrLess ? <BurgerMenu/> : <NavBar />} */}
       </header>
