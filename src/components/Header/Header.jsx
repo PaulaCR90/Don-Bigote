@@ -6,11 +6,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <img className="logo" src="./assets/logo-sinletras.png" alt="logo" />
-        <div className="logo-container">
-          <h3>Don Bigote</h3>
-          <h5>HIGUERUELA</h5>
-        </div>
+        <img className="logo" src="../../../public/assets/Logo_Don_Bigote_horizontal-removebg-preview.png" alt="logo" />
         <NavBar />
         {/* {tabletOrLess ? <BurgerMenu/> : <NavBar />} */}
       </header>

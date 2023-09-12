@@ -28,8 +28,6 @@
 }
 
 .asociacion section button:hover {
-  /* transform: scale(1.05);
-  transition: all 0.3s ease; */
   background-color: var(--primary);
   color: var(--secondary);
 }

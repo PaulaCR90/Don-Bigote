@@ -1,0 +1,34 @@
+.razon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.razon-title {
+    color: var(--quaternary);
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.razon-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-bottom: 1rem solid var(--primary);
+}
+
+.gatos {
+    height: 10rem;
+    width: 10rem;
+}
+
+.razon div {
+    width: 30%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}

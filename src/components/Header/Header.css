@@ -15,14 +15,5 @@ nav {
 }
 
 .logo {
-    height: 4rem;
-}
-
-.logo-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.logo-container h5 {
-    color: var(--primary);
+    height: 3rem;
 }
