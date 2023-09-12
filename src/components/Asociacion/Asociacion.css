@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 20rem;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .asociacion section {
@@ -16,7 +16,7 @@
   justify-content: space-evenly;
   gap: 0.6rem;
   color: var(--secondary);
-  border-bottom: 1rem solid var(--primary);
+  border-bottom: 0.5rem solid var(--primary);
 }
 
 .asociacion section button {
