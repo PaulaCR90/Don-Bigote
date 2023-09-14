@@ -1,0 +1,31 @@
+.donar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+
+.teaming, .donaciones {
+    gap: 1rem;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 700px) {
+    .donar-section {
+        height: 70svh;
+    }
+    
+    .teaming, .donaciones {
+        width: 80%;
+        height: 50%;
+        justify-content: space-evenly;
+    }
+}

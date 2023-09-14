@@ -7,16 +7,16 @@ const NavBar = ({ column, isOpen, setIsOpen}) => {
     <nav>
       <ul id="nav-list" style={{flexDirection: column ? "column" : "row"}}>
         <li onClick={() => isOpen && setIsOpen(!isOpen)}>
-          <NavLink to="/">LA ASOCIACIÓN</NavLink>
+          <NavLink to="/Asociacion">LA ASOCIACIÓN</NavLink>
         </li>
         <li onClick={() => isOpen && setIsOpen(!isOpen)}>
-          <NavLink to="/">COLABORA</NavLink>
+          <NavLink to="/Colabora">COLABORA</NavLink>
         </li>
         <li onClick={() => isOpen && setIsOpen(!isOpen)}>
-          <NavLink to="/">CONTACTO</NavLink>
+          <NavLink to="/Contacto">CONTACTO</NavLink>
         </li>
         <li onClick={() => isOpen && setIsOpen(!isOpen)}>
-          <NavLink to="/">DONAR</NavLink>
+          <NavLink to="/Donar">DONAR</NavLink>
         </li>
       </ul>
     </nav>

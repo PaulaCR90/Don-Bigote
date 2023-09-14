@@ -1,0 +1,22 @@
+.colabora-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.colabora-title {
+    align-items: center;
+    justify-content: center;
+}
+
+.socio, .voluntario, .puntualmente, .colabora-title {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+@media screen and (min-width: 700px) {
+    
+}

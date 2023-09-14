@@ -1,0 +1,28 @@
+.DonBigote {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.5rem solid var(--primary);
+}
+
+.DonBigote div {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--primary);
+}
+
+.DonBigote div h3 {
+    font-size: 2rem;
+}
+
+.DonBigote div p a {
+    color: var(--quinary);
+    font-weight: bold;
+}

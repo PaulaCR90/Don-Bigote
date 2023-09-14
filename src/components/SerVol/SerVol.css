@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 0.5rem solid var(--primary);
 }
 
 

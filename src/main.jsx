@@ -4,6 +4,10 @@ import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
+import PageAsociacion from "./pages/PageAsociacion.jsx";
+import Donar from "./pages/Donar.jsx";
+import Contacto from "./pages/Contacto.jsx";
+import Colabora from "./pages/Colabora.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -11,10 +15,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
-          {/* <Route path="/NextDays" element={<WeatherFive />} />
-          <Route path="/Cities" element={<Cities />} />
-          <Route path="/CitiesNextDays" element={<WeatherFive />} />
-          <Route path="*" element={<NotFound />} /> */}
+          <Route path="/Asociacion" element={<PageAsociacion />} />
+          <Route path="/Colabora" element={<Colabora />} />
+          <Route path="/Contacto" element={<Contacto />} />
+          <Route path="/Donar" element={<Donar />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
