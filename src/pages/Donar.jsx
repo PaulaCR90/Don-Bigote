@@ -6,7 +6,7 @@ const Donar = () => {
     <section className="donar-section">
       <div className="teaming">
         <img
-          src="../../public/assets/logotipo_teaming.png"
+          src="./assets/logotipo_teaming.png"
           alt="logo Teaming"
         />
 
