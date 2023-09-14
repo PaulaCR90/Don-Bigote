@@ -1,7 +1,7 @@
 import React from "react";
 import Asociacion from "../components/Asociacion/Asociacion";
 import Razon from "../components/Razon/Razon";
-import Ser from "../components/Ser/Ser";
+import SerVol from "../components/SerVol/SerVol";
 
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Asociacion />
       <Razon />
-      <Ser />
+      <SerVol />
     </>
   );
 };

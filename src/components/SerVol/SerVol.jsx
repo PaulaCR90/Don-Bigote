@@ -1,7 +1,7 @@
-import "./Ser.css";
-import React from "react";
+import React from 'react'
+import './SerVol.css'
 
-const Ser = () => {
+const SerVol = () => {
   return (
     <section className="ser">
       <div className="div-ser">
@@ -23,7 +23,8 @@ const Ser = () => {
         </p>
       </div>
     </section>
-  );
-};
 
-export default Ser;
+  )
+}
+
+export default SerVol
