@@ -9,19 +9,19 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=61550659575214&locale=es_ES">
               <img
                 className="rrss"
-                src="./assets/logotipo-circular-de-facebook.png"
+                src="./assets/face-rosa.png"
                 alt="facebook"
               />
             </a>
             <a href="https://www.instagram.com/donbigoteasoc/">
               <img
                 className="rrss"
-                src="./assets/instagram.png"
+                src="./assets/insta-rosa.png"
                 alt="instagram"
               />
             </a>
             <a href="mailto: asociaciondonbigote@gmail.com">
-              <img className="rrss" src="./assets/email.png" alt="correo" />
+              <img className="rrss" src="./assets/correo-rosa.png" alt="correo" />
             </a>
           </div>
           <p>
