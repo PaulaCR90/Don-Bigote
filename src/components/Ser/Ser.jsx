@@ -1,5 +1,5 @@
+import './Ser.css';
 import React from "react";
-import './ser.css'
 
 const Ser = () => {
   return (
