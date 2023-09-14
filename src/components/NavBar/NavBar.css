@@ -14,9 +14,11 @@ nav {
 
 #nav-list a {
     font-weight: 600;
-    white-space: nowrap;
+    color: var(--primary);
+    padding: 0.5rem 1rem;
 }
 
 #nav-list a:hover {
-    border-bottom: 1px solid black;
+    background-color: var(--primary);
+    color: var(--secondary);
 }
