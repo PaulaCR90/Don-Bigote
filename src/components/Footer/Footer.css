@@ -24,22 +24,29 @@ footer a:hover {
   height: fit-content;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .rrss {
   height: 1.5rem;
+  width: 1.5rem;
 }
 
 @media screen and (min-width: 700px) {
-  footer {
-    background-color: var(--quaternary);
-    color: white;
-    height: 12rem;
-    padding-bottom: 1rem;
-    align-items:flex-start;
+   footer {
+    flex-direction: row;
   }
 
+  .rrss-container {
+    width: 75%;
+    justify-content: space-around;
+  }
+
+  .rrss {
+    width: 2rem;
+    height: 2rem;
+  }
+/*
   footer p {
     margin-left: 1rem;
   }
@@ -82,5 +89,5 @@ footer a:hover {
   .donde-estamos {
     justify-content: space-evenly;
     text-align: center;
-  }
+  } */
 }

@@ -14,6 +14,7 @@ const Colabora = () => {
       </section>
       <section className="socio">
         <h3>Socio/s</h3>
+      <img src="./assets/socio.png" alt="" />
         <p>
           Puedes formar parte de la asociación siendo socio/a y formando parte
           de ella.
@@ -34,6 +35,7 @@ const Colabora = () => {
       </section>
       <section className="voluntario">
         <h3>Voluntario/a</h3>
+        <img src="./assets/voluntario.png" alt="" />
         <p>
           Un voluntario es aquella persona que no puede aportar económicamente
           pero quiere ayudarnos de manera puntual en la organización de
@@ -44,6 +46,7 @@ const Colabora = () => {
       </section>
       <section className="puntualmente">
         <h3>Puntualmente</h3>
+        <img src="./assets/Puntuales.png" alt="" />
         <p>
           A lo largo del año realizaremos numerosos eventos en los que podrás
           colaborar directamente con nosotras:

@@ -3,7 +3,8 @@ import './PageAsociacion.css'
 
 const PageAsociacion = () => {
   return (
-    <article>
+    <article className="asociacion-article">
+      <section className="asociacion-section">
       <h1>LA ASOCIACIÓN</h1>
       <p>
         Don Bigote nació en Agosto de 2023 gracias a un pequeño grupo de
@@ -24,6 +25,7 @@ const PageAsociacion = () => {
         subvenciones anuales del Ayuntamiento de Higueruela dedicadas a
         asociaciones locales.
       </p>
+      </section>
     </article>
   );
 };
