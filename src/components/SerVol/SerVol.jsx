@@ -5,7 +5,7 @@ const SerVol = () => {
   return (
     <section className="ser">
       <div className="div-ser">
-        <img src="../../../public/assets/socio.png" />
+        <img src="./assets/socio.png" />
         <h3>Quiero ser socio/a</h3>
         <p>
           Únete a Don Bigote Higueruela. Colabora con nosotras y conoce de
@@ -14,7 +14,7 @@ const SerVol = () => {
         </p>
       </div>
       <div className="div-ser">
-        <img src="../../../public/assets/voluntario.png" />
+        <img src="./assets/voluntario.png" />
         <h3>Quiero ser voluntario/a</h3>
         <p>
           Si quieres colaborar donando tu tiempo de forma puntual o permanente
