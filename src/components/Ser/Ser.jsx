@@ -1,4 +1,4 @@
-import './Ser.css';
+import "./Ser.css";
 import React from "react";
 
 const Ser = () => {
