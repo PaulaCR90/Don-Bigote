@@ -6,8 +6,11 @@ const NavBar = ({ column, isOpen, setIsOpen}) => {
   return (
     <nav>
       <ul id="nav-list" style={{flexDirection: column ? "column" : "row"}}>
+      <li onClick={() => isOpen && setIsOpen(!isOpen)}>
+          <NavLink to="/">INICIO</NavLink>
+        </li>
         <li onClick={() => isOpen && setIsOpen(!isOpen)}>
-          <NavLink to="/Asociacion">LA ASOCIACIÓN</NavLink>
+          <NavLink to="/Asociacion">ASOCIACIÓN</NavLink>
         </li>
         <li onClick={() => isOpen && setIsOpen(!isOpen)}>
           <NavLink to="/Colabora">COLABORA</NavLink>

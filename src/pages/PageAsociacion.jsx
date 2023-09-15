@@ -6,6 +6,7 @@ const PageAsociacion = () => {
     <article className="asociacion-article">
       <section className="asociacion-section">
       <h1>LA ASOCIACIÓN</h1>
+      <img src="./assets/asociacion.png" alt="" />
       <p>
         Don Bigote nació en Agosto de 2023 gracias a un pequeño grupo de
         personas preocupadas por la situación de riesgo que viven los gatos

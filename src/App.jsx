@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 function App() {
   const [tabletOrLess, setTabletOrLess] = useState(false);
   useEffect(() => {
-    if (window.innerWidth < 700) {
+    if (window.innerWidth < 720) {
       setTabletOrLess(true);
     }
   }, []);

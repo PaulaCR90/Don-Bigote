@@ -16,3 +16,7 @@
   --quaternary: #678959;
   --quinary: #a43e5a;
 }
+
+/* body {
+  font-size: calc(13px + 0.390625vw);
+} */
