@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 80svh;
+    height: 100%;
     width:100%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -20,6 +20,6 @@
 
 @media screen and (min-width: 700px) {
     .contacto {
-        height: 100%svh;
+        height: 85svh;
     }
 }
