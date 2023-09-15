@@ -9,7 +9,7 @@ footer {
   height: 4rem;
   font-size: 0.6rem;
   bottom: 0;
-  position: absolute;
+  position: sticky;
 }
 
 footer a {
