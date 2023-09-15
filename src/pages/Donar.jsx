@@ -5,8 +5,8 @@ const Donar = () => {
   return (
     <section className="donar-section">
       <div className="teaming">
-        <img src="./assets/logo_teaming_vertical.png" alt="logo Teaming" />
         <h3>Teaming</h3>
+        <img src="./assets/logo_teaming_vertical.png" alt="logo Teaming" />
         <p>
           Teaming es una herramienta para gestionar recaudaciones para causas
           sociales. Se puede donar sólo 1€/mes, es 100% sin comisiones y puedes
@@ -21,8 +21,8 @@ const Donar = () => {
       </div>
 
       <div className="donaciones">
-        <img src="./assets/Donaciones.png" />
         <h3>Donaciones</h3>
+        <img src="./assets/Donaciones.png" />
         <p>
           Si quieres donarnos cualquier otra cantidad puedes hacerlo por
           transferencia a nuestra cuenta bancaria:
