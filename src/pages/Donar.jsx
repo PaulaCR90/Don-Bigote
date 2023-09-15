@@ -15,7 +15,7 @@ const Donar = () => {
           declaración de la renta, dependiendo de cuanto hayas donado.
         </p>
         <p>
-          Aporta tu granito{" "}
+          ¡Aporta tu granito{" "}
           <a href="https://www.teaming.net/donbigote">AQUÍ!</a>
         </p>
       </div>
