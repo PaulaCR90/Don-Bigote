@@ -20,6 +20,6 @@
 
 @media screen and (min-width: 700px) {
     .contacto {
-        min-height: 85svh;
+        height: 100svh;
     }
 }
