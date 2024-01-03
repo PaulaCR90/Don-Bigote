@@ -27,7 +27,7 @@ const Donar = () => {
           Si quieres donarnos cualquier otra cantidad puedes hacerlo por
           transferencia a nuestra cuenta bancaria:
           <br />
-          XXXX-XXXXXXXXX-XXXXXXXX-XXXXXXXXXXXXXXXX
+          ES92-3081-0531-93-5000355059
         </p>
         <p>
           También puedes donarnos pienso para nuestros gatetes, entrando en el
