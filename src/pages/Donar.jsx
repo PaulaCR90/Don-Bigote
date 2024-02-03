@@ -16,7 +16,7 @@ const Donar = () => {
         </p>
         <p>
           ¡Aporta tu granito{" "}
-          <a href="https://www.teaming.net/donbigote">AQUÍ!</a>
+          <a href="https://www.teaming.net/asociaciondonbigote">AQUÍ!</a>
         </p>
       </div>
 
